@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    background-color: #151515;
+    color: white;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 28px 0;
+    padding: 0 10%;
+}
+
+.home .left {
+    max-width: 600px;
+}
+
+.home .right {
+    margin-left: 10rem;
+    align-items: center;
+}
+
+span {
+    color: #00abf0;
+
+}
